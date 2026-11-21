@@ -40,28 +40,130 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ─── Global Styling ──────────────────────────────────────────────────────────
+# ─── Custom CSS (Restoring Original Rich Navy Sidebar & Modern Styling) ─────
 st.markdown("""
 <style>
+    /* Main background */
+    .main { background-color: #F8F9FA; }
+    
+    /* Sidebar: Rich Deep Navy Gradient */
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #1A3C6E 0%, #2980B9 100%) !important;
+        color: white !important;
+    }
+    
+    /* Ensure all text inside sidebar is white */
+    [data-testid="stSidebar"] * {
+        color: white !important;
+    }
+    [data-testid="stSidebar"] .stSelectbox label {
+        color: white !important;
+    }
+    [data-testid="stSidebar"] .stRadio label {
+        color: white !important;
+    }
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] div,
+    [data-testid="stSidebar"] h1,
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3 {
+        color: white !important;
+    }
+    
+    /* Metric cards */
     .metric-card {
-        background-color: #f8f9fa;
-        border-radius: 8px;
-        padding: 16px;
-        border-left: 4px solid #1a3c6e;
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        border-left: 4px solid #1A3C6E;
         margin-bottom: 12px;
     }
-    .header-banner {
-        background: linear-gradient(135deg, #1a3c6e 0%, #2980b9 100%);
-        color: white;
-        padding: 24px;
-        border-radius: 10px;
-        margin-bottom: 24px;
+    .metric-value {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #1A3C6E;
     }
-    .header-banner h1 { color: white; margin: 0; font-size: 2rem; }
-    .header-banner p { color: #e0e0e0; margin: 6px 0 0 0; }
-    .badge-positive { background-color: #d4edda; color: #155724; padding: 4px 10px; border-radius: 12px; font-weight: bold; }
-    .badge-negative { background-color: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-weight: bold; }
-    .badge-neutral  { background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-weight: bold; }
+    .metric-label {
+        font-size: 0.85rem;
+        color: #666;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    
+    /* Sentiment badges */
+    .badge-positive {
+        background: #D5F5E3; color: #1E8449;
+        padding: 6px 16px; border-radius: 20px;
+        font-weight: bold; font-size: 1.1rem;
+        display: inline-block;
+    }
+    .badge-negative {
+        background: #FADBD8; color: #C0392B;
+        padding: 6px 16px; border-radius: 20px;
+        font-weight: bold; font-size: 1.1rem;
+        display: inline-block;
+    }
+    .badge-neutral {
+        background: #FEF9E7; color: #B7950B;
+        padding: 6px 16px; border-radius: 20px;
+        font-weight: bold; font-size: 1.1rem;
+        display: inline-block;
+    }
+    
+    /* Header banner */
+    .header-banner {
+        background: linear-gradient(135deg, #1A3C6E 0%, #2980B9 100%);
+        color: white;
+        padding: 24px 32px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+        box-shadow: 0 4px 12px rgba(26,60,110,0.15);
+    }
+    .header-banner h1 {
+        color: white !important;
+        margin: 0;
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+    .header-banner p {
+        color: #AED6F1 !important;
+        margin: 6px 0 0 0;
+        font-size: 1.05rem;
+    }
+    
+    /* Section headers */
+    .section-header {
+        color: #1A3C6E;
+        border-bottom: 2px solid #1A3C6E;
+        padding-bottom: 8px;
+        margin-bottom: 16px;
+    }
+    
+    /* Cards */
+    .info-card {
+        background: white;
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        margin-bottom: 12px;
+    }
+    
+    /* Result box */
+    .result-box {
+        background: white;
+        border-radius: 10px;
+        padding: 24px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        text-align: center;
+        margin-top: 16px;
+    }
+    
+    button[kind="primary"] {
+        background-color: #1A3C6E !important;
+        color: white !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -194,7 +296,6 @@ def run_baseline_prediction(text: str) -> dict:
             "inference_time_s": 0.041
         }
     else:
-        # Baseline over-predicts positive on neutral statements
         return {
             "label": "positive",
             "raw_output": "positive",
@@ -206,7 +307,7 @@ def run_baseline_prediction(text: str) -> dict:
 
 def render_sidebar():
     st.sidebar.markdown("## 📈 FinLLM")
-    st.sidebar.markdown("*Financial Sentiment Analytics*")
+    st.sidebar.markdown("*Financial Sentiment Analysis*")
     st.sidebar.markdown("---")
     
     page = st.sidebar.radio(
@@ -244,7 +345,7 @@ def page_overview(results):
     <div class="header-banner">
         <h1>📈 FinLLM</h1>
         <p>Financial Intelligence & Sentiment Analysis — Powered by Qwen2.5-0.5B-Instruct + LoRA Fine-Tuning</p>
-        <p style="margin-top: 10px; font-size: 0.95rem; background: rgba(255,255,255,0.2); display: inline-block; padding: 4px 12px; border-radius: 6px;">
+        <p style="margin-top: 12px; font-size: 0.95rem; background: rgba(255,255,255,0.2); display: inline-block; padding: 6px 14px; border-radius: 6px;">
             🌐 <b>Live Public Web URL:</b> <a href="https://sameetfinllm.streamlit.app" target="_blank" style="color: #ffffff; text-decoration: underline;">https://sameetfinllm.streamlit.app</a>
         </p>
     </div>
@@ -271,40 +372,37 @@ def page_overview(results):
     
     st.markdown("---")
     
-    # Model & Dataset Info Cards
-    col_left, col_right = st.columns(2)
-    with col_left:
-        st.markdown("### ⚙️ Model Information")
-        st.dataframe(pd.DataFrame({
-            "Property": ["Base Model", "Architecture", "Fine-Tuning Method", "LoRA Rank", "LoRA Alpha", "Target Modules", "Total Parameters", "Trainable %", "Adapter Status"],
-            "Value": [
-                tc.get("model_name", "Qwen/Qwen2.5-0.5B-Instruct"),
-                "24-layer Transformer Decoder",
-                "LoRA (Low-Rank Adaptation)",
-                str(tc.get("lora_rank", 8)),
-                str(tc.get("lora_alpha", 16)),
-                str(tc.get("target_modules", ["q_proj", "v_proj"])),
-                f"{tc.get('total_parameters', 494573440):,}",
-                f"{tc.get('trainable_percentage', 0.1093)}%",
-                "✅ Fine-Tuned (SafeTensors)"
-            ]
-        }), use_container_width=True, hide_index=True)
+    # Model & Dataset Info Cards (Table Layout as in Image 1)
+    col_a, col_b = st.columns(2)
+    with col_a:
+        st.markdown("### 🎯 Model Information")
+        st.markdown(f"""
+| Property | Value |
+|---|---|
+| Base Model | Qwen2.5-0.5B-Instruct |
+| Fine-Tuning | LoRA (PEFT) |
+| LoRA Rank | {tc.get('lora_rank', 8)} |
+| LoRA Alpha | {tc.get('lora_alpha', 16)} |
+| Target Modules | {tc.get('target_modules', ['q_proj', 'v_proj'])} |
+| Total Parameters | {tc.get('total_parameters', 494573440):,} |
+| Trainable % | {tc.get('trainable_percentage', 0.1093)}% |
+| Adapter Status | ✅ Fine-Tuned (SafeTensors) |
+        """)
     
-    with col_right:
+    with col_b:
         st.markdown("### 📊 Dataset Information")
-        st.dataframe(pd.DataFrame({
-            "Property": ["Dataset", "Configuration", "Total Available", "Fine-Tuning Subset", "Validation Split", "Held-Out Test", "Random Seed", "License"],
-            "Value": [
-                "Financial PhraseBank (Takala et al.)",
-                "sentences_50agree",
-                "4,837 unique sentences",
-                "300 samples (80% stratified)",
-                "80 samples (10% stratified)",
-                "180 samples (10% stratified)",
-                "42",
-                "CC BY-NC-SA 3.0 (Educational)"
-            ]
-        }), use_container_width=True, hide_index=True)
+        st.markdown(f"""
+| Property | Value |
+|---|---|
+| Dataset | Financial PhraseBank (Takala et al.) |
+| Config | sentences_50agree |
+| Sentiment Classes | Positive, Negative, Neutral |
+| Train Set | {tc.get('train_subset', 300)} examples |
+| Total Dataset | 4,846 sentences |
+| Split | 80% / 10% / 10% Stratified |
+| Random Seed | 42 |
+| License | CC BY-NC-SA 3.0 (Educational) |
+        """)
     
     st.markdown("---")
     st.markdown("### 🏷️ Supported Sentiment Categories")
