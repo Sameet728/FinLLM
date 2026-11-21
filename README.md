@@ -4,7 +4,8 @@
 > Student: Sameet Pisal | PRN: 202401120018 | Roll: 41  
 > Department: Department of Data Science | Institute: MIT Academy of Engineering  
 > Submission Date: 21 November 2026  
-> **Live Public Web Dashboard:** [https://83a916b4c9f2ad.app.lhr.life](https://83a916b4c9f2ad.app.lhr.life)  
+> **Live Public Web Dashboard:** [https://sameetfinllm.streamlit.app](https://sameetfinllm.streamlit.app)  
+> **GitHub Repository:** [https://github.com/Sameet728/FinLLM](https://github.com/Sameet728/FinLLM)  
 > **Local Dashboard:** `http://localhost:8501`
 
 ---

@@ -231,7 +231,7 @@ def page_overview(results):
         <h1>📈 FinLLM</h1>
         <p>Financial Intelligence & Sentiment Analysis — Powered by Qwen2.5-0.5B-Instruct + LoRA Fine-Tuning</p>
         <p style="margin-top: 10px; font-size: 0.95rem; background: rgba(255,255,255,0.2); display: inline-block; padding: 4px 12px; border-radius: 6px;">
-            🌐 <b>Live Public Web URL:</b> <a href="https://83a916b4c9f2ad.app.lhr.life" target="_blank" style="color: #ffffff; text-decoration: underline;">https://83a916b4c9f2ad.app.lhr.life</a>
+            🌐 <b>Live Public Web URL:</b> <a href="https://sameetfinllm.streamlit.app" target="_blank" style="color: #ffffff; text-decoration: underline;">https://sameetfinllm.streamlit.app</a>
         </p>
     </div>
     """, unsafe_allow_html=True)
