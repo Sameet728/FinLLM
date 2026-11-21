@@ -1,0 +1,14 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct (pretrained, no adapter)",
+  "total_test_examples": 180,
+  "valid_predictions": 180,
+  "invalid_predictions": 0,
+  "accuracy": 0.43333333333333335,
+  "macro_precision": 0.6201156867823535,
+  "macro_recall": 0.6461342395921835,
+  "macro_f1": 0.47934517890335265,
+  "weighted_f1": 0.3250452006220293,
+  "avg_inference_time_s": 0.9579944444444446,
+  "total_parameters": 494032768,
+  "timestamp": "2026-11-21 18:57:58"
+}

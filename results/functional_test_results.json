@@ -1,0 +1,128 @@
+[
+  {
+    "test_id": "Test 1",
+    "category": "Positive Financial Performance",
+    "input": "The company's quarterly revenue increased by 25%, exceeding ...",
+    "expected": "positive",
+    "predicted": "positive",
+    "status": "PASS",
+    "observation": "Model predicted 'positive' in 1.865s (raw: 'positive')"
+  },
+  {
+    "test_id": "Test 2",
+    "category": "Negative Financial Performance",
+    "input": "The company reported substantial losses following a decline ...",
+    "expected": "negative",
+    "predicted": "negative",
+    "status": "PASS",
+    "observation": "Model predicted 'negative' in 1.237s (raw: 'negative')"
+  },
+  {
+    "test_id": "Test 3",
+    "category": "Neutral Routine Announcement",
+    "input": "The company announced that its annual shareholder meeting wi...",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "status": "PASS",
+    "observation": "Model predicted 'neutral' in 1.157s (raw: 'neutral')"
+  },
+  {
+    "test_id": "Test 4",
+    "category": "Positive Operational Efficiency",
+    "input": "Operating profit improved significantly due to successful co...",
+    "expected": "positive",
+    "predicted": "positive",
+    "status": "PASS",
+    "observation": "Model predicted 'positive' in 1.134s (raw: 'positive')"
+  },
+  {
+    "test_id": "Test 5",
+    "category": "Negative Forward Guidance",
+    "input": "The company reduced its annual earnings forecast because of ...",
+    "expected": "negative",
+    "predicted": "negative",
+    "status": "PASS",
+    "observation": "Model predicted 'negative' in 1.188s (raw: 'negative')"
+  },
+  {
+    "test_id": "Test 6",
+    "category": "Neutral Governance Event",
+    "input": "The board appointed a new independent director on Monday.",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "status": "PASS",
+    "observation": "Model predicted 'neutral' in 1.407s (raw: 'neutral')"
+  },
+  {
+    "test_id": "Test 7",
+    "category": "Mixed Financial Sentiment",
+    "input": "Although quarterly revenue increased, the company's net prof...",
+    "expected": "mixed/neutral or negative",
+    "predicted": "negative",
+    "status": "PASS",
+    "observation": "Model predicted 'negative' in 1.17s (raw: 'negative')"
+  },
+  {
+    "test_id": "Test 8",
+    "category": "Financial Domain Context (Debt)",
+    "input": "The company successfully reduced its outstanding debt by 40%...",
+    "expected": "positive",
+    "predicted": "positive",
+    "status": "PASS",
+    "observation": "Model predicted 'positive' in 1.213s (raw: 'positive')"
+  },
+  {
+    "test_id": "Test 9",
+    "category": "Edge Case: Empty Input",
+    "input": "<empty>",
+    "expected": "invalid/neutral",
+    "predicted": "neutral",
+    "status": "PASS",
+    "observation": "Handled empty string gracefully; raw response: 'neutral'"
+  },
+  {
+    "test_id": "Test 10",
+    "category": "Edge Case: Extremely Long Text",
+    "input": "During the fourth quarter of the fiscal year, the multinatio...",
+    "expected": "positive",
+    "predicted": "positive",
+    "status": "PASS",
+    "observation": "Model predicted 'positive' in 2.23s (raw: 'positive')"
+  },
+  {
+    "test_id": "Test 11",
+    "category": "Edge Case: Non-Financial Input",
+    "input": "The weather today in London is sunny and mild with scattered...",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "status": "PASS",
+    "observation": "Model predicted 'neutral' in 1.101s (raw: 'neutral')"
+  },
+  {
+    "test_id": "Test 12",
+    "category": "Edge Case: Ambiguous Headline",
+    "input": "The company released its third-quarter financial figures on ...",
+    "expected": "neutral",
+    "predicted": "neutral",
+    "status": "PASS",
+    "observation": "Model predicted 'neutral' in 1.2s (raw: 'neutral')"
+  },
+  {
+    "test_id": "Test 13",
+    "category": "System: Batch Processing",
+    "input": "3-item batch sample",
+    "expected": "success",
+    "predicted": "positive, negative, neutral",
+    "status": "PASS",
+    "observation": "Batch inference succeeded: positive, negative, neutral"
+  },
+  {
+    "test_id": "Test 14",
+    "category": "System: Adapter Reload",
+    "input": "Model reload trigger",
+    "expected": "success",
+    "predicted": "reloaded",
+    "status": "PASS",
+    "observation": "Reloaded adapter produced valid inference: positive"
+  }
+]

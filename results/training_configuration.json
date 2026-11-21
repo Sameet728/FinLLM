@@ -1,0 +1,32 @@
+{
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "learning_rate": 0.0002,
+  "num_epochs": 1,
+  "batch_size": 1,
+  "grad_accum": 4,
+  "effective_batch_size": 4,
+  "max_seq_len": 128,
+  "train_subset": 300,
+  "total_steps": 75,
+  "warmup_steps": 7,
+  "optimizer": "AdamW",
+  "lr_scheduler": "cosine_with_warmup",
+  "weight_decay": 0.01,
+  "device": "cpu",
+  "training_duration_minutes": 14.86,
+  "final_train_loss": 0.011429,
+  "seed": 42,
+  "total_parameters": 494573440,
+  "trainable_parameters": 540672,
+  "frozen_parameters": 494032768,
+  "trainable_percentage": 0.1093,
+  "adapter_changed_matrices": 96,
+  "timestamp": "2026-11-21 19:15:06"
+}

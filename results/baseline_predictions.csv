@@ -1,0 +1,181 @@
+sentence,true_label,baseline_prediction,baseline_raw_output,baseline_inference_time_s,baseline_is_valid
+"Yesterday , Legrand issued its E300 million fixed rate deal maturing 2017 .",neutral,positive,positive,0.997,True
+"We succeeded in increasing our market share of sold apartment '' , comments Mr Kari Kauniskangas , Head of YIT International Construction Services .",positive,positive,positive,1.095,True
+"In addition , the company will reduce a maximum of ten jobs .",negative,neutral,neutral,1.232,True
+Danske Bank is Denmark 's largest bank with 3.5 million customers .,neutral,positive,positive,0.787,True
+Satama earned Data Management Solutions competency with Business Intelligence specialization recentlyvia the acquisition of Fimentor Oy .,positive,positive,positive,0.877,True
+` Nordic infrastructure construction is one of our strategic growth areas .,neutral,positive,positive,0.854,True
+Pohjola could increase its stake to 45 % in 2013 .,neutral,positive,positive,0.983,True
+Fortum is now considering taking part in nuclear energy projects outside of Finland .,neutral,positive,positive,1.013,True
+"In 2009 , Lee & Man had a combined annual production capacity of close to 4.5 million tonnes of paper and 300,000 tonnes of pulp .",neutral,positive,positive,0.981,True
+"The companies will divest to UPM Fray Bentos pulp mill and Forestal Oriental , a company specialising in eucalyptus cultivation .",neutral,positive,positive,0.904,True
+"For Q2 2010 , consolidated earnings before tax totaled EUR4 .5 m , compared to EUR3 .9 m , and net profit was EUR3 .2 m , compared to EUR2 .9 m in the previous year .",positive,positive,positive,1.171,True
+"ABOUT MIDNIGHTTRADER : MidnightTrader is the premier source of extended-hours US equity trading analysis , news and forecasting for the retail and institutional investment community .",neutral,positive,positive,0.937,True
+Ramirent made 18 million kroons EUR 1.15 mln loss last year ; the year before the company was 7.3 million kroons in the black .,negative,negative,negative,0.96,True
+"Therefore , Phase III of the research will not be conducted by Abbott .",neutral,negative,negative,0.706,True
+Net sales have been eaten by the weak US dollar .,negative,negative,negative,0.685,True
+The Kyroskoski investment is to be completed in late 2011 and the +ä+ñnekoski investment in the spring of 2012 .,neutral,neutral,neutral,0.88,True
+The company is well positioned in Brazil and Uruguay .,positive,positive,positive,0.638,True
+"Particular attention is being paid to energy efficiency in the construction of the building , as it is designed to meet the requirements of energy class B , and LEED certification will be applied for .",neutral,positive,positive,1.142,True
+The company has 120 employees and annual sales of approximately EUR16m .,neutral,positive,positive,1.233,True
+The divestment of Raisio 's margarine business in May 2009 gave the company a clearer focus on grain-based products .,positive,positive,positive,0.889,True
+Why not give your bedroom a cool makeover for summer .,neutral,positive,positive,0.698,True
+Alma Media 's net sales in 2009 totalled MEUR 307.8 with an operating margin of 13.5 per cent .,neutral,positive,positive,0.893,True
+"Food sales totalled EUR 323.5 mn in October 2009 , representing a decrease of 5.5 % from October 2008 .",negative,negative,negative,0.915,True
+The initial estimated total value was 1744900 EUR and the final award value was 1744900 EUR .,neutral,neutral,neutral,0.933,True
+"Profit before taxes amounted to EUR 56.5 mn , down from EUR 232.9 mn a year ago .",negative,negative,negative,0.955,True
+"The utility will also provide services related to electricity management , such as hedging trades and risk management and reporting .",neutral,positive,positive,1.688,True
+"We know that it exists , '' Artemyev said .",neutral,positive,positive,0.769,True
+Three students from Universiti Sains Malaysia have won a study trip to Helsinki .,neutral,positive,positive,1.046,True
+"Stora Enso , a global paper , packaging and wood products company , and Neste Oil , a Finnish company engaged in the refining and marketing of oil , have inaugurated the demonstration plant at Varkaus , Finland for biomass to liquids production utilizing forestry residues .",neutral,positive,positive,1.258,True
+credit 20 November 2009 - Finnish glass technology company Glaston Oyj Abp ( HEL : GLA1V ) said today it concluded a EUR74m revolving credit facility agreement with its core banks .,positive,positive,positive,1.182,True
+We make available the following brand-new market analyses : Cement - UK Cement - Poland Cement - Belgium These analyses give a clear overview of the actual situation and future outlook of the cement industry in some European countries .,neutral,positive,positive,1.158,True
+"Tulikivi manufactures heat-retaining , soapstone and ceramic fireplaces , as well as natural stone products and utility ceramics .",neutral,positive,positive,1.032,True
+"In Sweden , operating profit for the period under review totaled EUR 3.4 mn , up 30.8 % from the corresponding period in 2005 .",positive,positive,positive,1.128,True
+"The city will invite , however , a public procurement tender for the tailor-made public furniture , such as park benches , litter receptacles , public toilets , as well as bus shelters , street lights , and other .",neutral,positive,positive,0.933,True
+"Finnish GeoSentric 's net sales decreased to EUR 939,000 in January-March 2009 .",negative,negative,negative,0.838,True
+"Financial Statements include the consolidated financial statements of the Group , the Board of Directors ' Report , the Auditors ' Report and the Corporate Governance Statement .",neutral,positive,positive,0.864,True
+"Elcoteq SE Stock Exchange Announcement February 4 , 2009 at 10.00 am ( EET ) Elcoteq will publish its financial statements bulletin 2008 on Wednesday , February 11 , at 9.00 am ( EET ) .",neutral,positive,positive,1.303,True
+"The production capacity can be tripled without any major additional investments , the company said .",positive,positive,positive,1.131,True
+"The five-storey , eco-efficient building will have a gross floor area of about 15,000 sq m. It will also include apartments .",neutral,positive,positive,0.848,True
+Operating profit increased to EUR 14.0 mn from EUR 4.9 mn in the corresponding period in 2005 .,positive,positive,positive,0.776,True
+"The operator is one of 6 operators to have been granted a WiMAX license in Taiwan , and hopes to be the first to launch commercial services in early 2009 .",neutral,positive,positive,0.95,True
+"However , Biohit estimates its total net sales will continue to grow in 2009 , and that favourable trends in net sales will lead to a profit in 2009 .",positive,positive,positive,0.878,True
+"Due to market conditions , the company will also temporarily lay off about 3,200 people at different sites .",negative,negative,negative,1.135,True
+Latvia 's Stockmann shopping mall is a subsidiary of Finland 's Stockmann Plc. .,neutral,positive,positive,0.843,True
+"SRV will also build an aqua park with wellness area , a restaurant and a multifunctional ice arena .",neutral,positive,positive,0.77,True
+The carrier said its Area travel agency is to sell most of its outlets to sister chain Suomen Matkatoimisto (SMT)and use its remaining bricks-and-mortar presence to primarily target business customers going forward .,neutral,positive,positive,0.829,True
+A paper mill in the central Maine town of Madison soon will have a new owner .,neutral,positive,positive,0.754,True
+The board of directors also proposed that a dividend of EUR0 .20 per outstanding share be paid .,neutral,positive,positive,0.752,True
+Net investment income,neutral,positive,positive,0.803,True
+Incap Contract Manufacturing Services Private Limited has inked agreements with six new customers in India .,positive,positive,positive,0.768,True
+"GS Engineering will install the valves at a liquefied natural gas LNG plant it has built for UAE LNG extraction and gas plants operator GASCO in Ruwais , UAE .",neutral,positive,positive,0.88,True
+"Founded in 1923 , Finnair is one of the world 's oldest airlines and flies to 60 destinations with a fleet of 63 aircraft , employing 9,500 people .",neutral,positive,positive,0.83,True
+In the meantime the CEO 's duties will be assumed by Outotec 's Deputy CEO Seppo Rantakari .,neutral,neutral,neutral,0.824,True
+"In 2007 , almost two thirds of Orion 's net sales came from these drugs .",neutral,positive,positive,0.805,True
+The measures result from decreased demand in technical design and product information .,negative,negative,negative,0.94,True
+"In addition , Lehdentekijat Oy will start producing a new membership magazine , Viisas Raha ( Wise Money ) for the Association .",positive,positive,positive,0.867,True
+"Honkarakenne mainly exports large luxury log houses to Russia to be used as one-family houses or holiday homes ; 70 % of sales go to the Moscow region , about 20 % to the St Petersburg region , and the remainder to other locations .",neutral,positive,positive,1.272,True
+"The core of Solidium 's investment strategy is proper , value enhancing asset management of the current holdings .",positive,positive,positive,0.853,True
+"N +1 Group will pay EUR16 .5 m of the transaction price upon closing , and the remaining sum in 2012 .",neutral,positive,positive,0.821,True
+"This location makes the mall a convenient place to shop for consumers from three large residential areas nearby : Jaroszowka , Wysockiego and Zgody .",positive,positive,positive,1.389,True
+"Some 250 people , of whom more than 200 are workers , will be retiring from the Raahe Works between 2008 and 2011 .",neutral,positive,positive,0.934,True
+"Z. Bavelloni 's long-standing MD , Dino Bavelloni , has retired at the end of 2005 .",neutral,positive,positive,0.83,True
+"Honka 's subsidiaries in France and Germany will also benefit by , for example , arranging customer events in conjunction with World Cup skiing competitions .",neutral,positive,positive,0.754,True
+Efore has decided to establish a company for eletric vehicle ( EV ) business in China .,neutral,positive,positive,0.85,True
+These share transactions are part of the company 's strategy of relinquishing assets that are not part of its core business .,neutral,positive,positive,0.806,True
+"Having a China based operation will not only enable us to fully leverage our resources and expertise in wireless solutions , but also strengthen our capability to offer industry-leading products for our customers in China . ''",positive,positive,positive,0.976,True
+"As part of the reorganisation measures that will take place in spring 2006 , Tamglass Finton will start personnel negotiations that will affect its entire staff of 33 .",negative,negative,negative,0.928,True
+"Baltic Pearl CJSC , a subsidiary of Shanghai Foreign Joint Investment Company , is developing a project in St Petersburg , comprising about a million square meters of residential space , two hospitals and several schools and nurseries .",neutral,positive,positive,0.994,True
+"However , the brokers ' ratings on the stock differ .",neutral,negative,negative,0.747,True
+"( ADPnews ) - Nov 9 , 2009 - Four companies have agreed to buy for a combined SEK 5.9 billion ( USD 854m-EUR 571.8 m ) all drug stores offered for sale as part of the restructuring of Swedish stated-owned pharmacy monopoly Apoteket AB , t",positive,positive,positive,1.544,True
+Self-service and automation are in a bigger role now and Fujitsu 's global resources will be exploited effectively .,positive,positive,positive,0.923,True
+"The Bristol Port Company has sealed a one million pound contract with Cooper Specialised Handling to supply it with four 45-tonne , customised reach stackers from Konecranes .",positive,positive,positive,0.889,True
+Its market share widened to 48.51 percent from 48.31 percent a year earlier .,positive,positive,positive,0.8,True
+With the new production plant the company would increase its capacity to meet the expected increase in demand and would improve the use of raw materials and therefore increase the production profitability .,positive,positive,positive,0.827,True
+Vaisala 's net profit for the third quarter of 2007 dropped to 3.0 mln euro ( $ 4.3 mln ) from 6.8 mln euro ( $ 9.8 mln ) for the same period of 2006 .,negative,negative,negative,1.44,True
+"The personnel reduction will be carried out in Anjalankoski , Hollola , Jyvaskyla , Jarvenpaa , Karhula , Turku and Valkeakoski units .",negative,neutral,neutral,1.909,True
+Affecto has participated in the program for the development of the Norwegian pension system since 2007 .,neutral,positive,positive,0.781,True
+"The most popular mobile data services are email , surfing the internet , as well as news and weather services .",neutral,positive,positive,0.97,True
+"`` The margarine business has been put into good shape in the last two years , making it a natural addition to Bunge , which is looking to leverage its position in the Central and Northern European markets , '' Raisio CEO Matti Rihko said in a statement .",positive,positive,positive,1.712,True
+"The poorest index figure was given to Finnish power company Fortum , 4.5 .",negative,negative,negative,0.901,True
+"from BUSINESS LINE , May 16 , 2008 Sriperumbudur , May 15 - Nokia 's two key suppliers - Aspocomp and Wintek - are likely to start operations within three months in the Nokia Telecom Park at Sriperumbudur , 45 km west off Chennai .",neutral,positive,positive,1.348,True
+Aspocomp intends to set up a plant to manufacture printed circuit boards with an investment of Rs310 crore .,neutral,positive,positive,0.792,True
+They both will report to Oriola-KD 's chief executive officer Eero Hautaniemi .,neutral,positive,positive,0.793,True
+"`` I 'm happy with the outcome , '' Sneed said after the hearing .",positive,positive,positive,0.819,True
+"Cohen & Steers , Inc. : 5 534 626 shares representing 4.985 % of the share capital and voting rights .",neutral,positive,positive,0.955,True
+The veneer and plywood industry in Sweden is quite small despite the raw material resources .,neutral,neutral,neutral,0.744,True
+The world 's biggest magazine paper maker said the program to improve efficiency will include closing several of its least competitive mills and would cover all the company 's operations resulting in annual savings of some euro200 million US$ 240 million .,positive,positive,positive,1.159,True
+We hope to increase traffic volumes with the opening of Freight One Scandinavia . '',positive,positive,positive,0.725,True
+Both the net sales and operating profit were record high in the company 's history .,positive,positive,positive,0.7,True
+Nokian Capacitors ' equipment will be used to raise the capacity and reliability of the Indian grid .,positive,positive,positive,1.05,True
+"The firm is headquartered in Vantaa , southern Finland and has 16 employees .",neutral,positive,positive,0.863,True
+"Microsoft also churned up its courtship , agreeing to use the Navteq mapping service , which is offered by a company Nokia bought for $ 8.1 billion a few years ago .",positive,positive,positive,0.88,True
+"`` The enterprise value of the Fray Bentos pulp mill and Forestal Oriental totals approximately euro1 .6 billion , '' UPM said .",neutral,positive,positive,0.839,True
+Below are unaudited consolidated results for Aspocomp Group under IFRS reporting standards .,neutral,positive,positive,0.722,True
+Deliveries have started and the network will be ready for a launch soon .,positive,positive,positive,0.691,True
+The group had an order book of EUR 7.74 mn at the end of 2007 .,neutral,positive,positive,0.876,True
+GE is building the facility with wind power developer Invenergy Wind LLC .,neutral,positive,positive,0.863,True
+"According to Soosalu , particular attention was paid to residents privacy and security in the design of the Aleksandri Street building .",neutral,positive,positive,0.907,True
+The transaction will take place without payment of merger consideration .,neutral,neutral,neutral,0.825,True
+"EPS from continuing operations came in at 0.30 eur , up from 0.17 .",positive,positive,positive,0.75,True
+"Both operating profit and net sales for the six-month period increased , respectively , from EUR13 .8 m and EUR143 .6 m , as compared to the corresponding period in 2007 .",positive,positive,positive,0.916,True
+"The contract incorporates a Convergent Charging rating solution for voice and data , which includes Internet , GPRS , SMS , MMS and WAP .",neutral,positive,positive,0.877,True
+The company operates power plants in the Tyumen and Chelyabinsk regions and in the Khanty-Mansi Autonomous District .,neutral,positive,positive,0.966,True
+Production will expand to other of Elcoteq 's locations including Mexico and Hungary during 2010 .,positive,positive,positive,0.798,True
+"Thus , SysOpen Digia has , in accordance with Chapter 14 Section 21 of the Finnish Companies Act 29.9.1978 - 734 , obtained title to all the shares of Sentera that are to be redeemed .",neutral,positive,positive,1.372,True
+ArcelorMittal Chief Executive Officer Lakshmi Mittal has already cut output at some furnaces .,negative,negative,negative,0.759,True
+"HUHTAMAKI OYJ STOCK EXCHANGE RELEASE , 16.9.2008 AT 13.32 Huhtamaki 's Capital Markets Day for institutional investors and analysts is held in Espoo , September 16 , 2008 starting at 13.30 pm Finnish time .",neutral,positive,positive,1.574,True
+The result before taxes was a loss of 25.0 million euros .,neutral,negative,negative,0.771,True
+"efficiency improvement measures 20 January 2010 - Finnish stationery and gift retailer Tiimari HEL : TII1V said today that it will continue to improve its operational efficiency , by focusing on its profitable core operations .",positive,positive,positive,1.1,True
+A total of 140 jobs will be reduced at the Raahe Steel Works .,negative,negative,negative,0.896,True
+"In addition to the Tulikivi Corporation , he is also currently a member of the Board of the following companies : Altia Corporation , J+ñrvi-Suomen Portti Osuuskunta , Osuuskunta KPY , Profile Vehicles Oy and Voimatel Oy .",neutral,neutral,neutral,1.408,True
+- I am pleased that Bjorn Wahlroos has accepted the nomination .,positive,positive,positive,0.767,True
+Officials did not disclose the contract value .,neutral,negative,negative,0.718,True
+"More than 50,000 tonnes of asphalt mix will be used in the contract .",neutral,positive,positive,0.76,True
+"This one was at one time targeted for June 5 , but if we had to guess , it 's been pushed back -- maybe we 're crazy , but we feel like it has n't leaked enough to meet that date at this point .",neutral,neutral,neutral,1.196,True
+"Lead production , in turn , should increase to 60,000 tonnes through 2009 in what would be a twofold increase from current capacity levels , Zahariev said .",positive,positive,positive,1.132,True
+"The apartment block will be well-located , in easy reach of the city center and close to both a school and kindergarten .",positive,positive,positive,0.846,True
+The value of the contract is about EUR 27mn .,neutral,positive,positive,0.837,True
+Nordea 's chairman of the board Hans Dalborg has informed the nomination committee that he will not be up for re-election at the Annual General Meeting in 2011 .,neutral,negative,negative,0.9,True
+EUR 220 million of the transaction consideration was paid in the form of four-year interest-bearing vendor notes .,neutral,positive,positive,0.821,True
+Profit for the period fell to EUR 1.6 mn from EUR 7.5 mn in January-September 2008 .,negative,negative,negative,0.886,True
+We are also pleased to welcome the new employees to Tieto . ',neutral,positive,positive,0.952,True
+"The stock is trading above both its MAPs and the 50-day MAP of SEK72 .983 is higher than the 200-day MAP of SEK70 .283 , a bullish indicator .",positive,positive,positive,1.336,True
+The order was valued at over EUR15m .,neutral,positive,positive,0.743,True
+"Ethanol would be made from barley , and production could start in 2008 .",neutral,positive,positive,0.766,True
+"Finnish financial solutions developer Basware Corporation ( OMX Helsinki BAS1V ) said on Tuesday ( 23 September ) that it will deliver a complete Invoice Automation solution to a large US engineering , construction and technical services organization .",positive,positive,positive,0.909,True
+It is expected to be completed by the end of 2007 .,neutral,positive,positive,0.742,True
+"The company has also supplied more than 200 MW of power generating equipment for a number of projects in Papua New Guinea , including 12 engines of the Wartsila 32 type to Lihir Gold .",neutral,positive,positive,0.945,True
+Operating profit of the Asian plants grew markedly .,positive,positive,positive,0.929,True
+`` Those uncertainties cloud the long-term outlook . '',negative,negative,negative,0.774,True
+"The developers of that project predict that once it is completed in April 2009 , Skanssi will attract some 4.5 million visitors annually .",positive,positive,positive,1.157,True
+The enterprise value of Maritim Food AS has been determined as approximately EUR15m .,neutral,positive,positive,0.875,True
+"- The Group -¦ s profit before taxes was EUR 0,2 7,8 million .",neutral,positive,positive,1.054,True
+"Swedish , Finnish and Danish listed companies are organized in three market cap segments , Nordic Large Cap , Mid Cap and Small Cap .",neutral,positive,positive,0.668,True
+The layoff talks were first announced in August .,neutral,negative,negative,0.77,True
+"`` In Ukraine , too , we act as a partner for major bakery clients in both production and product development .",neutral,positive,positive,0.768,True
+- Provides summary of the medical equipment pipeline products that the company is developing .,neutral,positive,positive,0.722,True
+Finnish paints and coatings company Tikkurila Oyj ( HEL : TIK1V ) announced today the launch of Tikkurila ProHouse method for protection of wooden surfaces via treatment with Ultra Pro waterborne products .,neutral,positive,positive,1.191,True
+"In addition , Kone signed a two-year maintenance contract for the escalators .",positive,positive,positive,0.811,True
+SSH Establishes New Global Sales and Marketing Group to be led by George Adams ; Adams Establishes Global Sales and Marketing Group to Drive Worldwide Programs Supporting SSH Tectia Enterprise Security Solutions,neutral,positive,positive,0.926,True
+RusHydro has an agreement to transfer its stakes in OESK and the five ERCs into the trust management of Inter RAO .,neutral,positive,positive,1.011,True
+"Outotec 's scope of delivery includes design , basic engineering and supply of proprietary equipment for a sinter plant with a grate area of 496 square meters .",neutral,positive,positive,0.843,True
+"The Estonian beverages maker A. Le Coq today brought to the market a new premium class beer , A. Le Coq Special , investing 6 million kroons EUR 383,000 into its development and planning to sell three million liters of the beer during the next year .",neutral,positive,positive,1.619,True
+"Salcomp 's charger manufacturing plant in India is located in the Nokia Telecom Park in the state of Tamil Nadu , in the eastern part of India .",neutral,positive,positive,1.005,True
+The technology park will be built near St. Petersburg-based Pulkovo airport .,neutral,positive,positive,0.878,True
+"( ADP News ) - Feb 11 , 2009 - Finnish wood products technology supplier Raute Oyj ( HEL : RUTAV ) said today its net profit decreased to EUR 4.7 million ( USD 6.1 m ) for 2008 from EUR 6.6 million for 2007 .",negative,negative,negative,1.303,True
+The StoneGate product is centrally manageable and suited for both physical and virtual environments .,neutral,positive,positive,0.723,True
+"In a note to clients published , the Dutch broker described the company 's third quarter results as ` soft ' , although it also noted that Elcoteq retained its guidance , dealers said .",neutral,neutral,neutral,0.841,True
+"This is Done Logistics ' largest order in Norway , the diversified group said .",positive,positive,positive,0.859,True
+"The company designs , manufactures and markets high-quality clothing , interior decoration textiles , bags and other accessories .",neutral,positive,positive,0.8,True
+The Remote Radio head module will be available at 4W power for 2.5 GHz and 3.5 GHz TDD frequency bands .,neutral,positive,positive,0.812,True
+At CapMan Haavisto will be responsible for Group Finances and Accounting and IT .,neutral,positive,positive,0.749,True
+"M-real Corporation Stock Exchange Release 27 August 2009 at 3.15 pm M-real has received the EUR 190 million cash payment from Sappi M-real Corporation , a part of Mets+ñliitto Group , divested its Graphic Papers business to Sappi Limited at the end of 2008 for EUR 750 million .",neutral,positive,positive,1.509,True
+"Nokia said it still expects to sell 150 more million Symbian devices in years to come , giving an indication of how it expects the Phone 7 handoff to work .",neutral,positive,positive,0.798,True
+Return on investment ROI was 4.1 % compared to 43.8 % in the first half of 2008 .,negative,positive,positive,0.812,True
+"The chain posted sales of 298 million euros for full 2005 , a rise of 19.5 percent , year-on-year .",positive,positive,positive,0.785,True
+"Finnish financial software solutions developer BasWare Oyj said its net profit fell to 884,000 euro ( $ 1.2 mln ) for the first quarter of 2007 from 2.0 mln euro ( $ 2.7 mln ) a year earlier .",negative,negative,negative,1.442,True
+"( ADP News ) - Nov 5 , 2008 - Finnish electronic measurement products and solutions maker Vaisala Oyj ( OMX : VAIAS ) said today that its net profit rose to EUR 18 million ( USD 23.1 m ) for the first nine months of 2008 from EUR 1",positive,positive,positive,1.372,True
+"In the first half of 2008 , the Bank 's operating profit fell to EUR 11.8 mn from EUR 18.9 mn , while net interest income increased to EUR 20.9 mn from EUR 18.8 mn in the first half of 2007 .",negative,negative,negative,1.357,True
+"Acando AB ( ACANB SS ) fell 8.9 percent to 13.35 kronor , the lowest close since Dec. 11 .",negative,negative,negative,0.895,True
+28 January 2011 - Finnish technology center operator Technopolis Oyj (HEL : TPS1V)said today it will invest EUR22 .5 m in the construction of the second phase of an office facility in Tampere .,neutral,positive,positive,1.153,True
+"Finnish pharmaceuticals company Orion reports profit before taxes of EUR 70.0 mn in the third quarter of 2010 , up from EUR 54.9 mn in the corresponding period in 2009 .",positive,positive,positive,1.262,True
+"The divestment is in line with the company 's plans to focus on selected growth segments and streamline corporate structure , the company explained .",positive,positive,positive,0.775,True
+Net sales are expected to remain on the same level as in 2007 .,neutral,positive,positive,1.048,True
+"For the full 2010 the company expects its net sales and operating result to improve from the previous year , saying that a positive operating result and its amount will depend on the order intake by the end of the summer .",positive,positive,positive,0.765,True
+"The agreement was signed with Biohit Healthcare Ltd , the UK-based subsidiary of Biohit Oyj , a Finnish public company which develops , manufactures and markets liquid handling products and diagnostic test systems .",positive,positive,positive,0.98,True
+The contracts have been signed to acquire uranium produced at the Sotkamo nickel-zinc mine in eastern Finland owned by Talvivaara .,positive,positive,positive,0.739,True
+- Operating profit rose by 26.9 % to EUR 105.8 ( 83.4 ) million .,positive,positive,positive,0.808,True
+The plant will collect raw material from the Baltic Sea region .,neutral,positive,positive,0.699,True
+Finnish Talvivaara Mining Co HEL : TLV1V said Thursday it had picked BofA Merrill Lynch and JPMorgan NYSE : JPM as joint bookrunners of its planned issue of convertible notes worth up to EUR250m USD332m .,neutral,positive,positive,1.502,True
+"The previously concluded adaptation measures concerning the other personnel are adequate for the time being , Raute said .",positive,positive,positive,0.787,True
+"The Process Products orders are for the installation of separation-filtration equipment at three natural gas pipeline projects in China , South America , and Saudi Arabia .",neutral,positive,positive,0.874,True
+The CVs of the proposed members are available for viewing from 12 March 2008 onwards on the Internet at www.sampo.com/ir .,neutral,positive,positive,0.877,True
+"Metso Foundries Jyvaskyla Oy will discontinue production on this line by 30 September 2008 , the company said .",neutral,negative,negative,0.911,True
+"EPS for the quarter came in at 0.36 eur , up from 0.33 eur a year ago and ahead of forecast of 0.33 eur .",positive,positive,positive,1.328,True
+Financial terms were not disclosed .,neutral,negative,negative,0.682,True
+"Metsa-Botnia will finance the payment of dividends , the repayment of capital and the repurchase of its own shares with the funds deriving from its divestment of the Uruguay operations , and shares in Pohjolan Voima , and by utilising its existing financing facilities .",neutral,positive,positive,1.139,True
+"Vanhanen said the strike would be `` extremely damaging '' as some 1,300 participants and reporters begin to arrive in Finland for the one-day EU summit with Russian President Vladimir Putin in Lahti , about 100 kilometers ( 60 miles ) north of Helsinki .",negative,negative,negative,1.308,True
+"Of Bavelloni 's and NST 's joint ventures , Bavelloni Tools , completes semiproducts that are produced in Italy into high-quality tools that will be sold under the DiaPol brand .",neutral,positive,positive,0.915,True
+The total capacity of the factory will be approximately 100 engines a year .,neutral,positive,positive,1.045,True

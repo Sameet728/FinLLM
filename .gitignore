@@ -1,0 +1,24 @@
+# FinLLM — Git Ignore
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+*.log
+
+# Checkpoints (large intermediate folders)
+models/finllm_adapter/checkpoint-step-*
+
+# HuggingFace cache
+.cache/
+
+# Streamlit cache
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db

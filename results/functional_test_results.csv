@@ -1,0 +1,15 @@
+test_id,category,input,expected,predicted,status,observation
+Test 1,Positive Financial Performance,"The company's quarterly revenue increased by 25%, exceeding ...",positive,positive,PASS,Model predicted 'positive' in 1.865s (raw: 'positive')
+Test 2,Negative Financial Performance,The company reported substantial losses following a decline ...,negative,negative,PASS,Model predicted 'negative' in 1.237s (raw: 'negative')
+Test 3,Neutral Routine Announcement,The company announced that its annual shareholder meeting wi...,neutral,neutral,PASS,Model predicted 'neutral' in 1.157s (raw: 'neutral')
+Test 4,Positive Operational Efficiency,Operating profit improved significantly due to successful co...,positive,positive,PASS,Model predicted 'positive' in 1.134s (raw: 'positive')
+Test 5,Negative Forward Guidance,The company reduced its annual earnings forecast because of ...,negative,negative,PASS,Model predicted 'negative' in 1.188s (raw: 'negative')
+Test 6,Neutral Governance Event,The board appointed a new independent director on Monday.,neutral,neutral,PASS,Model predicted 'neutral' in 1.407s (raw: 'neutral')
+Test 7,Mixed Financial Sentiment,"Although quarterly revenue increased, the company's net prof...",mixed/neutral or negative,negative,PASS,Model predicted 'negative' in 1.17s (raw: 'negative')
+Test 8,Financial Domain Context (Debt),The company successfully reduced its outstanding debt by 40%...,positive,positive,PASS,Model predicted 'positive' in 1.213s (raw: 'positive')
+Test 9,Edge Case: Empty Input,<empty>,invalid/neutral,neutral,PASS,Handled empty string gracefully; raw response: 'neutral'
+Test 10,Edge Case: Extremely Long Text,"During the fourth quarter of the fiscal year, the multinatio...",positive,positive,PASS,Model predicted 'positive' in 2.23s (raw: 'positive')
+Test 11,Edge Case: Non-Financial Input,The weather today in London is sunny and mild with scattered...,neutral,neutral,PASS,Model predicted 'neutral' in 1.101s (raw: 'neutral')
+Test 12,Edge Case: Ambiguous Headline,The company released its third-quarter financial figures on ...,neutral,neutral,PASS,Model predicted 'neutral' in 1.2s (raw: 'neutral')
+Test 13,System: Batch Processing,3-item batch sample,success,"positive, negative, neutral",PASS,"Batch inference succeeded: positive, negative, neutral"
+Test 14,System: Adapter Reload,Model reload trigger,success,reloaded,PASS,Reloaded adapter produced valid inference: positive

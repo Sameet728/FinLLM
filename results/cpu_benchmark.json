@@ -1,0 +1,27 @@
+{
+  "device": "CPU (Intel Core Ultra 5 125H)",
+  "num_benchmark_steps": 10,
+  "avg_step_time_s": 2.6923,
+  "std_step_time_s": 0.8688,
+  "throughput_samples_per_sec": 0.371,
+  "total_parameters": 494573440,
+  "trainable_parameters": 540672,
+  "frozen_parameters": 494032768,
+  "trainable_percentage": 0.1093,
+  "estimated_300_sample_minutes": 13.46,
+  "losses_sample": [
+    9.943,
+    9.5909,
+    9.2994,
+    9.0087,
+    8.734,
+    8.4704,
+    8.179,
+    7.8651,
+    7.5417,
+    7.1932
+  ],
+  "cpu_usage_pct": 42.5,
+  "ram_usage_gb": 14.14,
+  "timestamp": "2026-11-21 18:53:29"
+}
