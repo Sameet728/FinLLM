@@ -1,0 +1,138 @@
+{
+  "timestamp": "2026-11-21 22:50:00",
+  "live_mode": true,
+  "overall_status": "ALL_TESTS_PASSED",
+  "tests_executed": 5,
+  "logs": [
+    {
+      "test": "Test 1: Single Positive",
+      "result": {
+        "headline": "The company reported a 30% increase in quarterly revenue, exceeding analyst expectations.",
+        "sentiment": "Positive",
+        "is_valid": true,
+        "confidence": {
+          "Negative": 0.0001,
+          "Neutral": 0.0114,
+          "Positive": 0.9885
+        },
+        "raw_output": "positive",
+        "inference_latency_s": 3.916,
+        "model": "Qwen/Qwen2.5-0.5B-Instruct + LoRA (FinLLM)",
+        "engine": "PyTorch / Transformers / PEFT (Genuine LLM)"
+      },
+      "status": "PASSED"
+    },
+    {
+      "test": "Test 2: Neg & Neutral",
+      "negative": {
+        "headline": "The company announced significant losses due to declining product demand.",
+        "sentiment": "Negative",
+        "is_valid": true,
+        "confidence": {
+          "Negative": 0.955,
+          "Neutral": 0.0437,
+          "Positive": 0.0014
+        },
+        "raw_output": "negative",
+        "inference_latency_s": 1.515,
+        "model": "Qwen/Qwen2.5-0.5B-Instruct + LoRA (FinLLM)",
+        "engine": "PyTorch / Transformers / PEFT (Genuine LLM)"
+      },
+      "neutral": {
+        "headline": "The company scheduled its annual general meeting for next month.",
+        "sentiment": "Neutral",
+        "is_valid": true,
+        "confidence": {
+          "Negative": 0.0045,
+          "Neutral": 0.9403,
+          "Positive": 0.0551
+        },
+        "raw_output": "neutral",
+        "inference_latency_s": 1.122,
+        "model": "Qwen/Qwen2.5-0.5B-Instruct + LoRA (FinLLM)",
+        "engine": "PyTorch / Transformers / PEFT (Genuine LLM)"
+      },
+      "status": "PASSED"
+    },
+    {
+      "test": "Test 3: Batch Analysis",
+      "result": {
+        "total_processed": 3,
+        "total_batch_time_s": 4.087,
+        "avg_time_per_item_s": 1.362,
+        "results": [
+          {
+            "index": 1,
+            "headline": "Operating margins expanded by 4.2% across European subsidiaries.",
+            "sentiment": "Positive",
+            "dominant_confidence": 0.9556,
+            "confidence_breakdown": {
+              "Negative": 0.0003,
+              "Neutral": 0.044,
+              "Positive": 0.9556
+            },
+            "latency_s": 1.45
+          },
+          {
+            "index": 2,
+            "headline": "Production halted at primary manufacturing plant due to regulatory non-compliance.",
+            "sentiment": "Negative",
+            "dominant_confidence": 0.8601,
+            "confidence_breakdown": {
+              "Negative": 0.8601,
+              "Neutral": 0.1383,
+              "Positive": 0.0015
+            },
+            "latency_s": 1.475
+          },
+          {
+            "index": 3,
+            "headline": "Board of Directors approved quarterly dividend distribution schedule.",
+            "sentiment": "Neutral",
+            "dominant_confidence": 0.8391,
+            "confidence_breakdown": {
+              "Negative": 0.0029,
+              "Neutral": 0.8391,
+              "Positive": 0.158
+            },
+            "latency_s": 1.159
+          }
+        ],
+        "engine": "Fine-Tuned Qwen2.5-0.5B LoRA Pipeline"
+      },
+      "status": "PASSED"
+    },
+    {
+      "test": "Test 4: Summarize Sentiment",
+      "result": {
+        "total_analyzed": 3,
+        "counts": {
+          "Positive": 1,
+          "Negative": 1,
+          "Neutral": 1
+        },
+        "percentages": {
+          "Positive": "33.3%",
+          "Negative": "33.3%",
+          "Neutral": "33.3%"
+        },
+        "net_sentiment_score": 0.0,
+        "market_sentiment_signal": "Neutral / Balanced Corporate Governance",
+        "analytical_takeaway": "Disclosures represent routine operational announcements, board filings, and structural notices."
+      },
+      "status": "PASSED"
+    },
+    {
+      "test": "Test 5: End-to-End Report",
+      "result": {
+        "query": "Generate an executive analysis report for Q3 Banking Sector",
+        "selected_tool": "generate_analysis_report",
+        "tool_input": "Generate an executive analysis report for Q3 Banking Sector",
+        "tool_output": "========================================================================\n                  FINLLM FINANCIAL INTELLIGENCE REPORT                  \n========================================================================\nSubject / Target: Generate an executive analysis report for Q3 Banking Sector\nAnalyst Model: FinLLM (Qwen2.5-0.5B-Instruct + LoRA Parameter-Efficient Tuning)\nDepartment: Department of Data Science | MIT Academy of Engineering, Pune\nStudent: Sameet Pisal (PRN: 202401120018, Roll: 41)\n------------------------------------------------------------------------\n1. EXECUTIVE ASSESSMENT\n   The ingested financial news was classified using domain-adapted\n   low-rank projection matrices (LoRA r=8, alpha=16) trained on the human-\n   annotated Financial PhraseBank benchmark.\n\n2. STRATEGIC SIGNAL SYNTHESIS\n   - Commercial Upside: Revenue beat, margin expansion, and cost optimization.\n   - Downside Vulnerabilities: Demand slowdown, input inflation, credit downgrade.\n   - Governance Notices: AGM announcements, director appointments, regulatory filings.\n\n3. REGULATORY COMPLIANCE & DISCLAIMER\n   This report is automatically synthesized by an educational AI language model.\n   Outputs represent statistical text analysis and DO NOT constitute investment,\n   trading, or fiduciary financial advice under SEBI/SEC regulations.\n========================================================================",
+        "execution_time_s": 0.001,
+        "status": "SUCCESS"
+      },
+      "status": "PASSED"
+    }
+  ]
+}

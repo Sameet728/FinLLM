@@ -182,7 +182,7 @@ def load_base_model(model_name: str = MODEL_NAME):
     print(f"Loading model: {model_name}")
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        torch_dtype=torch.float32,
+        dtype=torch.float32,
         trust_remote_code=True,
         low_cpu_mem_usage=True,
     )
@@ -202,7 +202,7 @@ def load_finetuned_model(adapter_path: Path = ADAPTER_DIR):
     
     base_model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
-        torch_dtype=torch.float32,
+        dtype=torch.float32,
         trust_remote_code=True,
         low_cpu_mem_usage=True,
     )
